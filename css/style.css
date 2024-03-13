@@ -432,18 +432,11 @@ p {
   fill: #f4f4fd;
 }
 
-.form {
-  display: flex;
-  flex-direction: row;
+.sub {
   margin-left: 80px;
 }
 
-.form-label {
-  display: flex;
-  flex-direction: column;
-}
-
-.label-text {
+.sub-text {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -451,9 +444,14 @@ p {
   margin-bottom: 16px;
 }
 
+.form {
+  display: flex;
+  gap: 24px;
+}
+
 .form-input {
   border: 1px solid #fff;
-  background-color: #2e2f42;
+  background-color: transparent;
   border-radius: 4px;
   width: 264px;
   height: 40px;
@@ -462,23 +460,25 @@ p {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding: 8px 16px;
+  padding-left: 16px;
 }
 
 .form-input::placeholder {
   color: #fff;
 }
 
-.form-button {
+.sub-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
-  margin-left: 24px;
   width: 165px;
   height: 40px;
 }
@@ -487,3 +487,10 @@ p {
   fill: #fff;
   margin-left: 16px;
 }
+
+.sub-button:hover,
+.sub-button:focus {
+  background: #404bbf;
+}
+
+/* MODAL */
