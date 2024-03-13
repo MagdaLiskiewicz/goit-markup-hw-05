@@ -431,3 +431,59 @@ p {
 .socials-icon {
   fill: #f4f4fd;
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.form-input {
+  border: 1px solid #fff;
+  background-color: #2e2f42;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+.form-input::placeholder {
+  color: #fff;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 24px;
+  width: 165px;
+  height: 40px;
+}
+
+.send-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
